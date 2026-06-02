@@ -1,3 +1,4 @@
+# Curso JAVA
 
 # Secuencias de Escape
 
@@ -110,7 +111,7 @@ if(5 >= 4){
 - Hacer un programa que nos indique si el alumno aprobó o reprobó la materia.
 -Realizar un programa que diga si el número es par o impar y si el número es mayor 10\, que diga un mensaje que el dígito dado es superior a 10.
 
-![](img/Programacion%20JAVA_7.png)
+![](assets/Programacion%20JAVA_7.png)
 
 # Operadores lógicos
 
@@ -196,7 +197,7 @@ CalificacionesMensaje.java
 
 Generar un programa que pregunte qué sexo eres\, si es Hombre que diga “Macho alfa lomo plateado”\, de lo contrario que diga “Eres una linda señorita”.
 
-![](img/Programacion%20JAVA_8.png)
+![](assets/Programacion%20JAVA_8.png)
 
 # If anidado
 
@@ -261,7 +262,7 @@ __Ejecuta ésta sección si no se cumple ningún caso__
 
 Crear un menú dando las opciones para seleccionar que se desea calcular. Opciones: 1. Suma\, 2. Resta\, 3 Multiplicación\, 4 División y al final arrojar el resultado de la operación\, en caso que no exista la operación\, lanzará el mensaje que no existe dicha operación.
 
-![](img/Programacion%20JAVA_9.png)
+![](assets/Programacion%20JAVA_9.png)
 
 
 # Sentencias de control - FOR
@@ -286,14 +287,14 @@ Realizar un programa que imprima la tabla de 7\, que hasta la multiplicación ha
 
 Realizar un programa que realice la tabla que el usuario quiera conocer\, debe llegar hasta el 10 la multiplicación.
 
-![](img/Programacion%20JAVA_10.png)
+![](assets/Programacion%20JAVA_10.png)
 
 
 # Ejercicio - Media
 
 Solicitar al usuario la cantidad de números que va a ingresar de un conjunto\, e ir pidiendo uno a uno; al final\, dar el resultado de la media.
 
-![](img/Programacion%20JAVA_11.png)
+![](assets/Programacion%20JAVA_11.png)
 
 # Break y Continue
 
@@ -301,7 +302,7 @@ Solicitar al usuario 8 números y el programa ignorará los números pares.
 
 Solicitar al usuario los números de un conjunto\, he ir pidiendo uno a uno; al final dar el resultado de la media. Para salir\, debe dar el valor de -1.
 
-![](img/Programacion%20JAVA_12.png)
+![](assets/Programacion%20JAVA_12.png)
 
 # Arreglos (array)
 
@@ -315,17 +316,17 @@ Espacio definido
 
 Solo puede contener un solo tipo elemento
 
-![](img/Programacion%20JAVA_13.png)
+![](assets/Programacion%20JAVA_13.png)
 
-![](img/Programacion%20JAVA_14.png)
+![](assets/Programacion%20JAVA_14.png)
 
 # Arrays - Estadística
 
 Realizar programa que calcule la media y la desviación estándar de un conjunto de datos que ingrese el usuario\, previamente se solicita el total de datos.
 
-![](img/Programacion%20JAVA_15.png)
+![](assets/Programacion%20JAVA_15.png)
 
-![](img/Programacion%20JAVA_16.png)
+![](assets/Programacion%20JAVA_16.png)
 
 
 # Arreglos (array)
@@ -353,13 +354,13 @@ Array bidimensionales\, tridimensionales\, de dimensión  _n x m_ .
 
 <span style="color:#000000">\};</span>  <span style="color:#a05000"> _//array con 2 x 4 _ </span>
 
-![](img/Programacion%20JAVA_17.png)
+![](assets/Programacion%20JAVA_17.png)
 
 Realizar la combinación de un nombre con un color al azar\, debe estar contenido en un array\, tres nombres y 8 colores. Cargando todos los datos desde un inicio.
 
 Realizar un combinador de parejas\, en un array bidimensional\, pedir los nombres de los hombres y mujeres\, posterior hacer parejas aleatorias. Sin importar que se repitan.
 
-![](img/Programacion%20JAVA_18.png)
+![](assets/Programacion%20JAVA_18.png)
 
 # Sentencias de control - WHILE & DO-WHILE
 
@@ -381,23 +382,23 @@ Realizar un programa que imprima la tabla de 9\, que llegue hasta el 10.
 
 Realizar un programa que realice la tabla que el usuario quiera conocer\, debe llegar hasta el 10.
 
-![](img/Programacion%20JAVA_19.png)
+![](assets/Programacion%20JAVA_19.png)
 
 # 4. Programación Orientada a Objetos
 
 # Objetos
 
-![](img/Programacion%20JAVA_20.png)
+![](assets/Programacion%20JAVA_20.png)
 
 __Atributos y Comportamientos__
 
-![](img/Programacion%20JAVA_21.png)
+![](assets/Programacion%20JAVA_21.png)
 
-![](img/Programacion%20JAVA_22.png)
+![](assets/Programacion%20JAVA_22.png)
 
 __Atributos y Comportamientos__
 
-![](img/Programacion%20JAVA_23.png)
+![](assets/Programacion%20JAVA_23.png)
 
 # ¿Qué es un método?
 
@@ -470,7 +471,7 @@ acelerar( ); \+ void
 
 arrancar( ); \+ void
 
-![](img/Programacion%20JAVA_24.png)
+![](assets/Programacion%20JAVA_24.png)
 
 # Creación de una nueva instancia de un Objeto
 
@@ -509,7 +510,7 @@ acelerar(); \+ void
 
 arrancar(); \+ void
 
-![](img/Programacion%20JAVA_25.png)
+![](assets/Programacion%20JAVA_25.png)
 
 # Crear objeto - Persona
 
@@ -525,7 +526,7 @@ saludar(): \+ void
 
 decirEdad(): \+void
 
-![](img/Programacion%20JAVA_26.png)
+![](assets/Programacion%20JAVA_26.png)
 
 # Métodos con argumentos
 
@@ -543,7 +544,7 @@ __Cuerpo del método__
 
 # Crear objeto - Persona
 
-![](img/Programacion%20JAVA_27.png)
+![](assets/Programacion%20JAVA_27.png)
 
 __Atributos:__
 
@@ -595,7 +596,7 @@ correr(int velocidad): \+ void
 
 jugar(): \+ String : (pelota\, hueso\, chancla)
 
-![](img/Programacion%20JAVA_28.png)
+![](assets/Programacion%20JAVA_28.png)
 
 # Objeto - Producto (set, get)
 
@@ -617,7 +618,7 @@ Hacer conversión de tipos de datos primitivos.
 
 _double_   _suma_  =  _(double)_  4;
 
-![](img/Programacion%20JAVA_29.png)
+![](assets/Programacion%20JAVA_29.png)
 
 # Alcance de variables
 
@@ -673,7 +674,7 @@ descripcion(): \+void
 
 Una clase para un objeto básico\, con sus métodos de asignación (set) y obtención (get)\, que describe algún tipo de estructura o dato genérico.
 
-![](img/Programacion%20JAVA_30.png)
+![](assets/Programacion%20JAVA_30.png)
 
 # Sobrecarga de métodos
 
@@ -783,11 +784,11 @@ __No se crea uno nuevo aunque se genere una instancia__
 
 Crear una librería para la solución de Ley de Ohm.
 
-![](img/Programacion%20JAVA_31.png)
+![](assets/Programacion%20JAVA_31.png)
 
 # Libreria Math
 
-![](img/Programacion%20JAVA_32.png)
+![](assets/Programacion%20JAVA_32.png)
 
 __sqrt()__ : Raíz cuadrada
 
@@ -799,9 +800,9 @@ __cos()__ : coseno
 
 __abs()__ : valor absoluto
 
-![](img/Programacion%20JAVA_33.png)
+![](assets/Programacion%20JAVA_33.png)
 
-![](img/Programacion%20JAVA_34.png)
+![](assets/Programacion%20JAVA_34.png)
 
 # Campos final
 
@@ -817,7 +818,7 @@ La forma de declararlo es en Mayúsculas y separados por guión bajo (\_)
 
 Crear un objeto de la segunda Ley de Newton\, teniendo como campo static y final la gravedad.
 
-![](img/Programacion%20JAVA_35.png)
+![](assets/Programacion%20JAVA_35.png)
 
 # Clases envolturas (Wrapper)
 
@@ -867,7 +868,7 @@ _Super clase_   __-->__   _Subclase_
 
 Al hacer la herencia\, todos los campos y métodos son pasados a la clase hija.
 
-![](img/Programacion%20JAVA_36.png)
+![](assets/Programacion%20JAVA_36.png)
 
 # Extends
 
@@ -924,7 +925,7 @@ Es una buena práctica siempre sobrescribir el método  _toString() _ en todas l
 
 # super
 
-Usar la palabra reservada  _super_  es muy similar a usar la palabra  _this_ \, la diferencia que  _super_  hace referencia a la clase padre y  _this_  a la clase actual. De esta manera podemos acceder a los métodos y campos de  _clase padre siempre y cuando sean publics o protected_ .
+Usar la palabra reservada  _super_  es muy similar a usar la palabra  _this_, la diferencia que  _super_  hace referencia a la clase padre y  _this_  a la clase actual. De esta manera podemos acceder a los métodos y campos de  _clase padre siempre y cuando sean publics o protected_ .
 
 <span style="color:#505050">@Override</span>
 
@@ -988,7 +989,7 @@ _public _  _final_  _ void_   _miMetodo_ \{
 
 Nos permite programar de forma general\, nos permite escribir programas que procesen objetos que compartan la misma superclase en un jerarquía de clases\, como si todos fueran objetos de la superclase.
 
-![](img/Programacion%20JAVA_37.png)
+![](assets/Programacion%20JAVA_37.png)
 
 # Clases abstractas
 
@@ -1020,7 +1021,7 @@ Es implícito que sea public.
 
 Es implícito que sea abstract.
 
-![](img/Programacion%20JAVA_38.png)
+![](assets/Programacion%20JAVA_38.png)
 
 _public _  _interface _  __MiObjeto\{__  //inicia la clase
 
@@ -1028,11 +1029,11 @@ _void _  __miMetodo__ ( ); //no tiene cuerpo el método
 
 __\}__ //fin de la clase
 
-![](img/Programacion%20JAVA_39.png)
+![](assets/Programacion%20JAVA_39.png)
 
-![](img/Programacion%20JAVA_40.png)
+![](assets/Programacion%20JAVA_40.png)
 
-![](img/Programacion%20JAVA_41.png)
+![](assets/Programacion%20JAVA_41.png)
 
 # Interfaces como constantes
 
@@ -1151,7 +1152,7 @@ Una excepción  _NO verificada_  es cuando no es necesario especificar el bloque
 
 # Jerarquía de Excepciones
 
-![](img/Programacion%20JAVA_42.png)
+![](assets/Programacion%20JAVA_42.png)
 
 # Excepción NO verificadas (throw)
 
@@ -1241,7 +1242,7 @@ __ArrayList __  _\<Persona> _  __personas = new ArrayList<>();__
 
 # Genericos (varios valores)
 
-_public class_   __MiObjeto__  _\< E \, T \, N >_  __\{__
+_public class_   __MiObjeto__  _\< E, T, N >_  __\{__
 
 _public_  _ _  _void_  __ method__ (  _E_  element)\{ //recibe un tipo E
 
@@ -1259,7 +1260,7 @@ __\}__
 
 # Tipos RAW
 
-Si no se especifica el tipo entre _ \< >_ \,  entonces es de tipo RAW; es decir\, tipo crudo\, por ende\, el compilador lo toma por default como tipo Object.
+Si no se especifica el tipo entre _ \< >_,  entonces es de tipo RAW; es decir\, tipo crudo\, por ende\, el compilador lo toma por default como tipo Object.
 
 __ClaseGenerica __  _miGenerico_  __ = __  _new  _  __ClaseGenerica__  _ _  __( );__
 
@@ -1305,7 +1306,7 @@ La clase más utilizada es  _HashMap_ .
 
 # Elementos de Interfaz - Ventana
 
-![](img/Programacion%20JAVA_43.png)
+![](assets/Programacion%20JAVA_43.png)
 
 # Elementos de Interfaz
 
@@ -1313,17 +1314,17 @@ Botones(Button)
 
 Etiquetas (Label)
 
-![](img/Programacion%20JAVA_44.png)
+![](assets/Programacion%20JAVA_44.png)
 
-![](img/Programacion%20JAVA_45.png)
+![](assets/Programacion%20JAVA_45.png)
 
 Campo de texto
 
 Área de texto
 
-![](img/Programacion%20JAVA_46.png)
+![](assets/Programacion%20JAVA_46.png)
 
-![](img/Programacion%20JAVA_47.png)
+![](assets/Programacion%20JAVA_47.png)
 
 Botón tipo radio
 
@@ -1333,9 +1334,9 @@ Caja de chequeo
 
 CheckBox
 
-![](img/Programacion%20JAVA_48.png)
+![](assets/Programacion%20JAVA_48.png)
 
-![](img/Programacion%20JAVA_49.png)
+![](assets/Programacion%20JAVA_49.png)
 
 # Eventos
 
@@ -1382,7 +1383,7 @@ _archivo._  _mkdir();_
 
 # Base de Datos
 
-![](img/Programacion%20JAVA_50.png)
+![](assets/Programacion%20JAVA_50.png)
 
 # SQLite
 
@@ -1400,7 +1401,7 @@ Borrar (Delete)
 
 __CREATE TABLE__  \[name\_table\] (\[columns\_name\] \[data\_type\]\,...) __;__
 
-__CREATE TABLE__  employee  __(__ \_id  __INTEGER__ \, name  __TEXT__ \, age  __INTEGER);__
+__CREATE TABLE__  employee  __(__ \_id  __INTEGER__, name  __TEXT__, age  __INTEGER);__
 
 # Lenguaje de Consulta (SQL)
 
@@ -1448,7 +1449,7 @@ _[https://www.sqlite.org/](https://www.sqlite.org/)_
 
 _[https://github.com/xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)_
 
-![](img/Programacion%20JAVA_51.png)
+![](assets/Programacion%20JAVA_51.png)
 
 # Aplicación Java con DB
 
@@ -1456,31 +1457,31 @@ _[https://github.com/xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)_
 
 # Lenguajes que has aprendido
 
-![](img/Programacion%20JAVA_52.png)
+![](assets/Programacion%20JAVA_52.png)
 
-![](img/Programacion%20JAVA_53.png)
+![](assets/Programacion%20JAVA_53.png)
 
-![](img/Programacion%20JAVA_54.png)
+![](assets/Programacion%20JAVA_54.png)
 
-![](img/Programacion%20JAVA_55.png)
+![](assets/Programacion%20JAVA_55.png)
 
-![](img/Programacion%20JAVA_56.png)
+![](assets/Programacion%20JAVA_56.png)
 
 # Herramientas que operan con JVM
 
-![](img/Programacion%20JAVA_57.png)
+![](assets/Programacion%20JAVA_57.png)
 
-![](img/Programacion%20JAVA_58.png)
+![](assets/Programacion%20JAVA_58.png)
 
-![](img/Programacion%20JAVA_59.png)
+![](assets/Programacion%20JAVA_59.png)
 
-![](img/Programacion%20JAVA_60.png)
+![](assets/Programacion%20JAVA_60.png)
 
-![](img/Programacion%20JAVA_61.png)
+![](assets/Programacion%20JAVA_61.png)
 
 # El curso que ha tomado cuesta
 
-![](img/Programacion%20JAVA_62.png)
+![](assets/Programacion%20JAVA_62.png)
 
 _[http://education.oracle.com/pls/web\_prod-plq-dad/db\_pages.getpage?page\_id=609&get\_params=dc:D67234\,clang:EN\#tabs-3](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=609&get_params=dc:D67234,clang:EN#tabs-3)_
 
@@ -1496,9 +1497,9 @@ _[http://education.oracle.com/pls/web\_prod-plq-dad/db\_pages.getpage?page\_id=6
 
 # Ing. Alejandro Leyva
 
-![](img/Programacion%20JAVA_63.png)
+![](assets/Programacion%20JAVA_63.png)
 
-![](img/Programacion%20JAVA_64.png)
+![](assets/Programacion%20JAVA_64.png)
 
 # Bibliografía
 

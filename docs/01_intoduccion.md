@@ -63,6 +63,6 @@ java   nombreArchivo 		# ejecución de programa
 
 - Comenzar con número
 - Tener espacios
-- Tener acentos 
+- Tener acentos
 - Sensible a mayúsculas y minúsculas
 
