@@ -5,9 +5,6 @@ description = "Documentation about JAVA"
 authors = ["jalmx <jalm_x@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-
-
-[tool.poetry]
 package-mode = false
 
 
