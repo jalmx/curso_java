@@ -1,29 +1,8 @@
 # Curso JAVA
 
-# Secuencias de Escape
-
-|       __Nombre__       | __Sintaxis__ |
-| :--------------------: | :----------: |
-| Salto de línea (Enter) |     \\n      |
-|       Tabulador        |     \\t      |
-|    Retorno de carro    |     \\r      |
-|   Diagonal invertida   |     \\\\     |
-|     Doble comilla      |     \\”      |
-
-
-# Declaración de variables
-
-__tipoDeVariable__   _nombreVariable_  __;__  //declaración de variable
-
-__tipoDeVariable__   _nombreVariable_  = valorAsignado __;__
-
-__int__   _miVariableEntera_  = 5 __;__
-
-__double __  _miVariableDoble_  = 4.32 __;__
-
 # Operadores Aritméticos
 
-|   __Nombre__   | __Símbolo__ |          __Descripción__          |
+|   **Nombre**   | **Símbolo** |          **Descripción**          |
 | :------------: | :---------: | :-------------------------------: |
 |   Asignación   |      =      |       Asignar un valor dado       |
 |      Suma      |     \+      |          Operación suma           |
@@ -35,7 +14,7 @@ __double __  _miVariableDoble_  = 4.32 __;__
 
 # Operadores Aritméticos combinados
 
-|   __Nombre__   | __Símbolo__ |   __Descripción__   |
+|   **Nombre**   | **Símbolo** |   **Descripción**   |
 | :------------: | :---------: | :-----------------: |
 |      Suma      |     \+=     | x = x \+ 3 -> x\+=3 |
 |     Resta      |     -=      |  x = x - 3 -> x-=3  |
@@ -69,26 +48,26 @@ printf(“Mi peso es %.2f kgrs”, peso);//impresión con formato
 
 # Printf - Especificadores de formato
 
-| __Carácter__ |   __Tipo de salida__    | __Ejemplo__  |
+| **Carácter** |   **Tipo de salida**    | **Ejemplo**  |
 | :----------: | :---------------------: | :----------: |
-|    __d__     |         Entero          | %d <br> %5d  |
-|    __f__     |   Flotantes y dobles    | %f <br> 2.3f |
-|    __e__     | Con notación científica | %83e <br> %e |
-|    __s__     |     String (Texto)      | %s <br> %12s |
-|    __c__     |        Caracter         |  %c<br>%2c   |
+|    **d**     |         Entero          | %d <br> %5d  |
+|    **f**     |   Flotantes y dobles    | %f <br> 2.3f |
+|    **e**     | Con notación científica | %83e <br> %e |
+|    **s**     |     String (Texto)      | %s <br> %12s |
+|    **c**     |        Caracter         |  %c<br>%2c   |
 
 # 3. Estructuras de Decisión y Control
 
 # Operadores de relación
 
-| __Operador__ |  __Descripción__  | __Ejemplo__ | __Resultado__ |
+| **Operador** |  **Descripción**  | **Ejemplo** | **Resultado** |
 | :----------: | :---------------: | :---------: | :-----------: |
-|    __==__    |     Igual que     |   8 == 9    |     false     |
-|    __<__     |     Menor que     |    9 < 4    |     false     |
-|    __>__     |     Mayor que     |   0 > -4    |     true      |
-|    __<=__    | Menor o igual que |   9 <= 20   |     true      |
-|    __>=__    | Mayor o igual que |   3 >= 6    |     false     |
-|    __!=__    |   Diferente de    |   4 != 4    |     false     |
+|    **==**    |     Igual que     |   8 == 9    |     false     |
+|    **<**     |     Menor que     |    9 < 4    |     false     |
+|    **>**     |     Mayor que     |   0 > -4    |     true      |
+|    **<=**    | Menor o igual que |   9 <= 20   |     true      |
+|    **>=**    | Mayor o igual que |   3 >= 6    |     false     |
+|    **!=**    |   Diferente de    |   4 != 4    |     false     |
 
 OperadoresRelacion.java
 
@@ -115,33 +94,33 @@ if(5 >= 4){
 
 # Operadores lógicos
 
-|       __AND__        |               |
+|       **AND**        |               |
 | :------------------: | :-----------: |
-|    __Operación__     | __Resultado__ |
-| False  __&&__  False |     False     |
-| False  __&&__  True  |     False     |
-| True  __&&__  False  |     False     |
-|  True  __&&__  True  |     True      |
+|    **Operación**     | **Resultado** |
+| False  **&&**  False |     False     |
+| False  **&&**  True  |     False     |
+| True  **&&**  False  |     False     |
+|  True  **&&**  True  |     True      |
 
-|       __OR__       |               |
+|       **OR**       |               |
 | :----------------: | :-----------: |
-|   __Operación__    | __Resultado__ |
+|   **Operación**    | **Resultado** |
 | False  \|\|  False |     False     |
 | False  \|\|  True  |     True      |
 | True  \|\|  False  |     True      |
 |  True  \|\|  True  |     True      |
 
-|    __NOT__    |               |
+|    **NOT**    |               |
 | :-----------: | :-----------: |
-| __Operación__ | __Resultado__ |
-|  __!__ True   |     False     |
-|  __!__ False  |     True      |
+| **Operación** | **Resultado** |
+|  **!** True   |     False     |
+|  **!** False  |     True      |
 
-| __Nombre__ | __Símbolo__ |      __Aplicación__      | __Resultado__ |
+| **Nombre** | **Símbolo** |      **Aplicación**      | **Resultado** |
 | :--------: | :---------: | :----------------------: | :-----------: |
-|  __AND__   |     &&      | (5 == 5)  __&&__  (4==4) |     True      |
-|   __OR__   |             |                          |               | (9 > 3)  __ |  | __  false | True |
-|  __NOT__   |      !      |          !false          |     True      |
+|  **AND**   |     &&      | (5 == 5)  **&&**  (4==4) |     True      |
+|   **OR**   |             |                          |               | (9 > 3)  ** |  | **  false | True |
+|  **NOT**   |      !      |          !false          |     True      |
 
 
 # Ejercicio - Aprobado-Reprobado con mensaje
@@ -168,26 +147,26 @@ CalificacionesMensaje.java
 
 <span style="color:#000000"> _Se importa el objeto Scanner\, se genera una instancia._ </span>
 
-<span style="color:#700080"> __import__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">java</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">util</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">Scanner</span>  <span style="color:#000000">; </span>  <span style="color:#a05000"> _//se importa la librería\, debe ir al inicio del archivo_ </span>
+<span style="color:#700080"> **import** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">java</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">util</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">Scanner</span>  <span style="color:#000000">; </span>  <span style="color:#a05000"> _//se importa la librería\, debe ir al inicio del archivo_ </span>
 
-<span style="color:#1ab1cd">Scanner</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">leer</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __new__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Scanner</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">in</span>  <span style="color:#000000">); </span>  <span style="color:#a05000"> _//crea instancia dentro de main_ </span>
+<span style="color:#1ab1cd">Scanner</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">leer</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **new** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Scanner</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">in</span>  <span style="color:#000000">); </span>  <span style="color:#a05000"> _//crea instancia dentro de main_ </span>
 
-<span style="color:#008050">String</span>  __ __  <span style="color:#1ab1cd">texto </span>  <span style="color:#ee11ff"> __=__ </span>  __ __  <span style="color:#1ab1cd">leer</span>  __.__  <span style="color:#1ab1cd">next</span>  __(); __  <span style="color:#a05000"> _//lee y guarda texto_ </span>
+<span style="color:#008050">String</span>  ** **  <span style="color:#1ab1cd">texto </span>  <span style="color:#ee11ff"> **=** </span>  ** **  <span style="color:#1ab1cd">leer</span>  **.**  <span style="color:#1ab1cd">next</span>  **(); **  <span style="color:#a05000"> _//lee y guarda texto_ </span>
 
-<span style="color:#008050">String</span>  __ __  <span style="color:#1ab1cd">texto </span>  <span style="color:#ee11ff"> __=__ </span>  __ __  <span style="color:#1ab1cd">leer</span>  __.__  <span style="color:#1ab1cd">nextLine</span>  __(); __  <span style="color:#a05000"> _//lee y guarda texto_ </span>
+<span style="color:#008050">String</span>  ** **  <span style="color:#1ab1cd">texto </span>  <span style="color:#ee11ff"> **=** </span>  ** **  <span style="color:#1ab1cd">leer</span>  **.**  <span style="color:#1ab1cd">nextLine</span>  **(); **  <span style="color:#a05000"> _//lee y guarda texto_ </span>
 
-<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">entero</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">leer</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nextInt</span>  <span style="color:#000000">(); </span>  <span style="color:#a05000"> _//lee y guarda entero_ </span>
+<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">entero</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">leer</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nextInt</span>  <span style="color:#000000">(); </span>  <span style="color:#a05000"> _//lee y guarda entero_ </span>
 
-<span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">doble</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">leer</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nextDouble</span>  <span style="color:#000000">();</span>  <span style="color:#a05000"> _//lee y guarda doble_ </span>
+<span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">doble</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">leer</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nextDouble</span>  <span style="color:#000000">();</span>  <span style="color:#a05000"> _//lee y guarda doble_ </span>
 
 
 # Sentencia de decisión IF-ELSE
 
-<span style="color:#700080"> __if__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **if** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//en caso que sea verdadero\, ejecuta éste código_ </span>
 
-<span style="color:#000000">\}</span>  <span style="color:#700080"> __else__ </span>  <span style="color:#000000">\{</span>
+<span style="color:#000000">\}</span>  <span style="color:#700080"> **else** </span>  <span style="color:#000000">\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//en caso contrario\, se ejecuta éste código_ </span>
 
@@ -201,15 +180,15 @@ Generar un programa que pregunte qué sexo eres\, si es Hombre que diga “Macho
 
 # If anidado
 
-<span style="color:#700080"> __if__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **if** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#a05000"> _//en caso que sea verdadero\, ejecuta éste código_ </span>
 
-<span style="color:#000000">\}</span>  <span style="color:#700080"> __else__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __if__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
+<span style="color:#000000">\}</span>  <span style="color:#700080"> **else** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **if** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//de lo contrario si\, se ejecuta_ </span>
 
-<span style="color:#000000">\}</span>  <span style="color:#700080"> __else__ </span>  <span style="color:#000000">\{</span>
+<span style="color:#000000">\}</span>  <span style="color:#700080"> **else** </span>  <span style="color:#000000">\{</span>
 
 <span style="color:#a05000"> _//en caso contrario\, se ejecuta éste código_ </span>
 
@@ -218,45 +197,45 @@ Generar un programa que pregunte qué sexo eres\, si es Hombre que diga “Macho
 
 # Operador Ternario (?:)
 
-<span style="color:#1ab1cd">condicion</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __?__ </span>  <span style="color:#000000"> </span>  <span style="color:#201090">true</span>  <span style="color:#000000"> :  </span>  <span style="color:#201090">false</span>
+<span style="color:#1ab1cd">condicion</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **?** </span>  <span style="color:#000000"> </span>  <span style="color:#201090">true</span>  <span style="color:#000000"> :  </span>  <span style="color:#201090">false</span>
 
-<span style="color:#700080"> __if__ </span>  <span style="color:#000000"> (</span>  <span style="color:#1ab1cd">x</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __>__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">n</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **if** </span>  <span style="color:#000000"> (</span>  <span style="color:#1ab1cd">x</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **>** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">n</span>  <span style="color:#000000">)\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#1ab1cd">variable</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">a</span>  <span style="color:#000000">;</span>
+<span style="color:#000000">	</span>  <span style="color:#1ab1cd">variable</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">a</span>  <span style="color:#000000">;</span>
 
-<span style="color:#000000">\}</span>  <span style="color:#700080"> __else__ </span>  <span style="color:#000000">\{</span>
+<span style="color:#000000">\}</span>  <span style="color:#700080"> **else** </span>  <span style="color:#000000">\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#1ab1cd">variable</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">b</span>  <span style="color:#000000">;</span>
+<span style="color:#000000">	</span>  <span style="color:#1ab1cd">variable</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">b</span>  <span style="color:#000000">;</span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#1ab1cd">variable</span>   <span style="color:#ee11ff"> __=__ </span>  (  <span style="color:#1ab1cd">x</span>   <span style="color:#ee11ff"> __>__ </span>   <span style="color:#1ab1cd">n</span>  )  <span style="color:#ee11ff"> __?__ </span>   <span style="color:#1ab1cd">a</span>  :  <span style="color:#1ab1cd">b</span>
+<span style="color:#1ab1cd">variable</span>   <span style="color:#ee11ff"> **=** </span>  (  <span style="color:#1ab1cd">x</span>   <span style="color:#ee11ff"> **>** </span>   <span style="color:#1ab1cd">n</span>  )  <span style="color:#ee11ff"> **?** </span>   <span style="color:#1ab1cd">a</span>  :  <span style="color:#1ab1cd">b</span>
 
 # Sentencia de decisión SWITCH
 
-<span style="color:#700080"> __switch__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">variable</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **switch** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">variable</span>  <span style="color:#000000">)\{</span>
 
-<span style="color:#700080"> __case__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">opcion1</span>  <span style="color:#000000">:</span>
-
-<span style="color:#a05000"> _//código_ </span>
-
-<span style="color:#700080"> __break__ </span>  <span style="color:#000000">;</span>
-
-<span style="color:#700080"> __case__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">opcion2</span>  <span style="color:#000000">:</span>
+<span style="color:#700080"> **case** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">opcion1</span>  <span style="color:#000000">:</span>
 
 <span style="color:#a05000"> _//código_ </span>
 
-<span style="color:#700080"> __break__ </span>  <span style="color:#000000">;</span>
+<span style="color:#700080"> **break** </span>  <span style="color:#000000">;</span>
 
-<span style="color:#700080"> __default__ </span>  <span style="color:#000000">:</span>
+<span style="color:#700080"> **case** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">opcion2</span>  <span style="color:#000000">:</span>
+
+<span style="color:#a05000"> _//código_ </span>
+
+<span style="color:#700080"> **break** </span>  <span style="color:#000000">;</span>
+
+<span style="color:#700080"> **default** </span>  <span style="color:#000000">:</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código_ </span>
 
 <span style="color:#000000">\}</span>
 
-__Opción a comparar__
+**Opción a comparar**
 
-__Ejecuta ésta sección si no se cumple ningún caso__
+**Ejecuta ésta sección si no se cumple ningún caso**
 
 # Ejercicio - Calculadora básica
 
@@ -269,13 +248,13 @@ Crear un menú dando las opciones para seleccionar que se desea calcular. Opcion
 
 _Separado por punto y coma (;)_
 
-<span style="color:#700080"> __for__ </span>  <span style="color:#000000">( </span>  <span style="color:#1ab1cd">inicio</span>  <span style="color:#000000">; </span>  <span style="color:#1ab1cd">condicion</span>  <span style="color:#000000"> ; </span>  <span style="color:#1ab1cd">∆</span>  <span style="color:#000000"> )\{</span>
+<span style="color:#700080"> **for** </span>  <span style="color:#000000">( </span>  <span style="color:#1ab1cd">inicio</span>  <span style="color:#000000">; </span>  <span style="color:#1ab1cd">condicion</span>  <span style="color:#000000"> ; </span>  <span style="color:#1ab1cd">∆</span>  <span style="color:#000000"> )\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código que se va a repetir hasta que la condición sea   falsa_ </span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __for__ </span>  <span style="color:#000000">( </span>  <span style="color:#1ab1cd">inicio</span>  <span style="color:#000000"> ; </span>  <span style="color:#1ab1cd">tope</span>  <span style="color:#000000"> ; </span>  <span style="color:#1ab1cd">incremento</span>  <span style="color:#ee11ff"> __/__ </span>  <span style="color:#1ab1cd">decremento</span>  <span style="color:#000000"> )\{</span>
+<span style="color:#700080"> **for** </span>  <span style="color:#000000">( </span>  <span style="color:#1ab1cd">inicio</span>  <span style="color:#000000"> ; </span>  <span style="color:#1ab1cd">tope</span>  <span style="color:#000000"> ; </span>  <span style="color:#1ab1cd">incremento</span>  <span style="color:#ee11ff"> **/** </span>  <span style="color:#1ab1cd">decremento</span>  <span style="color:#000000"> )\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código que se va a repetir hasta que la condición sea   falsa_ </span>
 
@@ -308,7 +287,7 @@ Solicitar al usuario los números de un conjunto\, he ir pidiendo uno a uno; al 
 
 Es una estructura de datos\, una colección de elementos\, en éste caso es una colección de referencias.
 
-__Características:__
+**Características:**
 
 Espacio definido
 
@@ -331,22 +310,22 @@ Realizar programa que calcule la media y la desviación estándar de un conjunto
 
 # Arreglos (array)
 
-<span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __new__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tipo</span>  <span style="color:#000000">\[</span>  <span style="color:#1ab1cd">tamaño</span>  <span style="color:#000000">\]; </span>  <span style="color:#a05000"> _//declaración vacío pero su espacio _ </span>  <span style="color:#a05000"> _definido_ </span>
+<span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **new** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tipo</span>  <span style="color:#000000">\[</span>  <span style="color:#1ab1cd">tamaño</span>  <span style="color:#000000">\]; </span>  <span style="color:#a05000"> _//declaración vacío pero su espacio _ </span>  <span style="color:#a05000"> _definido_ </span>
 
-<span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> \{</span>  <span style="color:#1ab1cd">valor1</span>  <span style="color:#000000">\, </span>  <span style="color:#1ab1cd">valor2</span>  <span style="color:#000000">\, </span>  <span style="color:#1ab1cd">valor3</span>  <span style="color:#000000">\}; </span>  <span style="color:#a05000"> _//asignando los valores _ </span>
+<span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> \{</span>  <span style="color:#1ab1cd">valor1</span>  <span style="color:#000000">\, </span>  <span style="color:#1ab1cd">valor2</span>  <span style="color:#000000">\, </span>  <span style="color:#1ab1cd">valor3</span>  <span style="color:#000000">\}; </span>  <span style="color:#a05000"> _//asignando los valores _ </span>
 
-<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">miArreglo</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __new__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000">\[</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\]; </span>  <span style="color:#a05000"> _//array con 4 espacios _ </span>  <span style="color:#a05000"> _vacíos_ </span>
+<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">miArreglo</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **new** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000">\[</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\]; </span>  <span style="color:#a05000"> _//array con 4 espacios _ </span>  <span style="color:#a05000"> _vacíos_ </span>
 
-<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">segundoArreglo</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> \{</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">3</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">7</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">9</span>  <span style="color:#000000">\};</span>  <span style="color:#a05000"> _//array con 4 datos_ </span>
+<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">segundoArreglo</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> \{</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">3</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">7</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">9</span>  <span style="color:#000000">\};</span>  <span style="color:#a05000"> _//array con 4 datos_ </span>
 
 
 # Array nxm
 
 Array bidimensionales\, tridimensionales\, de dimensión  _n x m_ .
 
-<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">miArreglo</span>  <span style="color:#000000">\[\]\[\] </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __new__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000">\[</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\]\[</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\]; </span>  <span style="color:#a05000"> _//array de 4 x 4 _ </span>
+<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">miArreglo</span>  <span style="color:#000000">\[\]\[\] </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **new** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000">\[</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\]\[</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\]; </span>  <span style="color:#a05000"> _//array de 4 x 4 _ </span>
 
-<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">segundoArreglo</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> \{ </span>
+<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">segundoArreglo</span>  <span style="color:#000000">\[\] </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> \{ </span>
 
 <span style="color:#000000">	\{</span>  <span style="color:#106040">4</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">3</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">7</span>  <span style="color:#000000">\, </span>  <span style="color:#106040">9</span>  <span style="color:#000000">\}\,</span>
 
@@ -364,17 +343,17 @@ Realizar un combinador de parejas\, en un array bidimensional\, pedir los nombre
 
 # Sentencias de control - WHILE & DO-WHILE
 
-<span style="color:#700080"> __while__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **while** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código que se ejecuta mientras la condición se cumpla (true)_ </span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __do__ </span>  <span style="color:#000000">\{</span>
+<span style="color:#700080"> **do** </span>  <span style="color:#000000">\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código que se ejecuta mientras la condición se cumpla (true)\, pero entra la primera vez_ </span>
 
-<span style="color:#000000">\}</span>  <span style="color:#700080"> __while__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">);</span>
+<span style="color:#000000">\}</span>  <span style="color:#700080"> **while** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">condicionVerdadera</span>  <span style="color:#000000">);</span>
 
 # Ejercicio - Imprimiendo tablas de multiplicar (while)
 
@@ -390,13 +369,13 @@ Realizar un programa que realice la tabla que el usuario quiera conocer\, debe l
 
 ![](assets/Programacion%20JAVA_20.png)
 
-__Atributos y Comportamientos__
+**Atributos y Comportamientos**
 
 ![](assets/Programacion%20JAVA_21.png)
 
 ![](assets/Programacion%20JAVA_22.png)
 
-__Atributos y Comportamientos__
+**Atributos y Comportamientos**
 
 ![](assets/Programacion%20JAVA_23.png)
 
@@ -418,13 +397,13 @@ Modifica estados.
 
 # Creación de Objetos
 
-__Objeto = Clase__
+**Objeto = Clase**
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __class__ </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">MiObjeto</span>  <span style="color:#000000">\{ </span>  <span style="color:#a05000"> _//inicia la clase_ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **class** </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">MiObjeto</span>  <span style="color:#000000">\{ </span>  <span style="color:#a05000"> _//inicia la clase_ </span>
 
 <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">campo1</span>  <span style="color:#000000">;</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">miMetodo</span>  <span style="color:#000000">( )\{ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">miMetodo</span>  <span style="color:#000000">( )\{ </span>
 
 <span style="color:#a05000"> _//cuerpo del método_ </span>
 
@@ -432,40 +411,40 @@ __Objeto = Clase__
 
 <span style="color:#000000">\}</span>  <span style="color:#a05000"> _//fin de la clase_ </span>
 
-__Atributo = Campo__
+**Atributo = Campo**
 
-__Método = Comportamientos__
+**Método = Comportamientos**
 
 # Campos y Métodos
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">noPuertas</span>  <span style="color:#000000">; </span>  <span style="color:#a05000"> _// campo_ </span>  <span style="color:#a05000"> _ de tipo entero_ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">noPuertas</span>  <span style="color:#000000">; </span>  <span style="color:#a05000"> _// campo_ </span>  <span style="color:#a05000"> _ de tipo entero_ </span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">acelerar</span>  <span style="color:#000000"> (   )  \{ </span>  <span style="color:#a05000"> _// comienza_ </span>  <span style="color:#a05000"> _ el método\, tipo void_ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">acelerar</span>  <span style="color:#000000"> (   )  \{ </span>  <span style="color:#a05000"> _// comienza_ </span>  <span style="color:#a05000"> _ el método\, tipo void_ </span>
 
 <span style="color:#000000">	</span>  <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">out</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">println</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">“acelerando”</span>  <span style="color:#000000">);</span>
 
 <span style="color:#000000">\}</span>
 
-__Cuerpo del método__
+**Cuerpo del método**
 
-__(Lo que hará el método)__
+**(Lo que hará el método)**
 
 # Tipos de métodos
 
-| __Nombre__ |                  __Descripción__                  |
+| **Nombre** |                  **Descripción**                  |
 | :--------: | :-----------------------------------------------: |
-|  __void__  | No devuelve ningún dato\, sólo realiza una acción |
-|  __int__   |             Devuelve un valor entero              |
-|  __long__  |          Devuelve un valor entero largo           |
-| __float__  |            Devuelve un valor flotante             |
-| __double__ |         Devuelve un valor flotante largo          |
-|  __char__  |          Devuelve un valor tipo carácter          |
-|  __byte__  |            Devuelve un valor tipo byte            |
-| __Objeto__ |            Devuelve el tipo del objeto            |
+|  **void**  | No devuelve ningún dato\, sólo realiza una acción |
+|  **int**   |             Devuelve un valor entero              |
+|  **long**  |          Devuelve un valor entero largo           |
+| **float**  |            Devuelve un valor flotante             |
+| **double** |         Devuelve un valor flotante largo          |
+|  **char**  |          Devuelve un valor tipo carácter          |
+|  **byte**  |            Devuelve un valor tipo byte            |
+| **Objeto** |            Devuelve el tipo del objeto            |
 
 # Creando Objeto
 
-__Comportamientos:__
+**Comportamientos:**
 
 acelerar( ); \+ void
 
@@ -475,7 +454,7 @@ arrancar( ); \+ void
 
 # Creación de una nueva instancia de un Objeto
 
-<span style="color:#1ab1cd">TipoObjeto</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombreInstancia</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __new__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">TipoObjeto</span>  <span style="color:#000000">( );</span>
+<span style="color:#1ab1cd">TipoObjeto</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombreInstancia</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **new** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">TipoObjeto</span>  <span style="color:#000000">( );</span>
 
 _Debe terminar con paréntesis_
 
@@ -483,13 +462,13 @@ _Nos indica la creación de un nuevo objeto_
 
 # Llamada métodos y campos
 
-<span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">nombreInstancia</span>  <span style="color:#ee11ff"> __>__ </span>  <span style="color:#000000">.</span>  <span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">método</span>  <span style="color:#ee11ff"> __>__ </span>
+<span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">nombreInstancia</span>  <span style="color:#ee11ff"> **>** </span>  <span style="color:#000000">.</span>  <span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">método</span>  <span style="color:#ee11ff"> **>** </span>
 
-<span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">nombreInstancia</span>  <span style="color:#ee11ff"> __>__ </span>  <span style="color:#000000">.</span>  <span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">campo</span>  <span style="color:#ee11ff"> __>__ </span>
+<span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">nombreInstancia</span>  <span style="color:#ee11ff"> **>** </span>  <span style="color:#000000">.</span>  <span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">campo</span>  <span style="color:#ee11ff"> **>** </span>
 
 # Niveles de acceso (Encapsulamiento)
 
-|   __Nombre__    | __Clase__ | __Package__ | __Subclase__ | __Todos__ |
+|   **Nombre**    | **Clase** | **Package** | **Subclase** | **Todos** |
 | :-------------: | :-------: | :---------: | :----------: | :-------: |
 |     public      |    Sí     |     Sí      |      Sí      |    Sí     |
 |    protected    |    Sí     |     Sí      |      Sí      |    No     |
@@ -498,13 +477,13 @@ _Nos indica la creación de un nuevo objeto_
 
 # Creando Objeto
 
-__Atributos:__
+**Atributos:**
 
 noPuertas: \+ int
 
 kilometraje: \+ long
 
-__Comportamientos:__
+**Comportamientos:**
 
 acelerar(); \+ void
 
@@ -514,13 +493,13 @@ arrancar(); \+ void
 
 # Crear objeto - Persona
 
-__Atributos:__
+**Atributos:**
 
 nombre: \+ String
 
 edad: \+ int
 
-__Métodos:__
+**Métodos:**
 
 saludar(): \+ void
 
@@ -530,29 +509,29 @@ decirEdad(): \+void
 
 # Métodos con argumentos
 
-__Nombre del método__
+**Nombre del método**
 
-__Argumentos separados por coma (\,)__
+**Argumentos separados por coma (\,)**
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000">  </span>  <span style="color:#008050">void</span>  <span style="color:#000000">  </span>  <span style="color:#0000f0">comer</span>  <span style="color:#000000">  (  </span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombreComida</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000">  </span>  <span style="color:#008050">void</span>  <span style="color:#000000">  </span>  <span style="color:#0000f0">comer</span>  <span style="color:#000000">  (  </span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombreComida</span>  <span style="color:#000000">)\{</span>
 
-<span style="color:#1ab1cd"> </span>  <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">out</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">println</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">“Como</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">una</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">rica</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">”</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __\+ __ </span>  <span style="color:#1ab1cd">nombreComida</span>  <span style="color:#000000">);</span>
+<span style="color:#1ab1cd"> </span>  <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">out</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">println</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">“Como</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">una</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">rica</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">”</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **\+ ** </span>  <span style="color:#1ab1cd">nombreComida</span>  <span style="color:#000000">);</span>
 
 <span style="color:#000000">\}</span>
 
-__Cuerpo del método__
+**Cuerpo del método**
 
 # Crear objeto - Persona
 
 ![](assets/Programacion%20JAVA_27.png)
 
-__Atributos:__
+**Atributos:**
 
 nombre: \+ String
 
 edad: \+ int
 
-__Métodos:__
+**Métodos:**
 
 saludar(): \+ void
 
@@ -564,31 +543,31 @@ _cenar(String comida\, String bebida): \+ void_
 
 # Métodos con return
 
-__Argumentos separados por coma (\,)__
+**Argumentos separados por coma (\,)**
 
-__Nombre del método__
+**Nombre del método**
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">anioNaciomiento</span>  <span style="color:#000000">( </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioNacimiento</span>  <span style="color:#000000">\, </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioActual</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">anioNaciomiento</span>  <span style="color:#000000">( </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioNacimiento</span>  <span style="color:#000000">\, </span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioActual</span>  <span style="color:#000000">)\{</span>
 
-<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">edad</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioActual</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __-__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioNacimiento</span>  <span style="color:#000000">;</span>
+<span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">edad</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioActual</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **-** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">anioNacimiento</span>  <span style="color:#000000">;</span>
 
-<span style="color:#000000">	</span>  <span style="color:#700080"> __return__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">edad</span>  <span style="color:#000000">;</span>
+<span style="color:#000000">	</span>  <span style="color:#700080"> **return** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">edad</span>  <span style="color:#000000">;</span>
 
 <span style="color:#000000">\}</span>
 
-__Cuerpo del método__
+**Cuerpo del método**
 
-_Valor que retorna_  __\, regresa a quien lo llamó__
+_Valor que retorna_  **\, regresa a quien lo llamó**
 
 # Objeto - Perro
 
-__Atributos:__
+**Atributos:**
 
 nombre  : -String
 
 raza : -String
 
-__Métodos:__
+**Métodos:**
 
 ladrar(): \+ void
 
@@ -600,7 +579,7 @@ jugar(): \+ String : (pelota\, hueso\, chancla)
 
 # Objeto - Producto (set, get)
 
-__Campos:__
+**Campos:**
 
 precio: - double
 
@@ -622,7 +601,7 @@ _double_   _suma_  =  _(double)_  4;
 
 # Alcance de variables
 
-_public class_   __MiClase__ \{
+_public class_   **MiClase** \{
 
 _public int_   _variable1_ ; <span style="color:#aaaaaa">//variable global</span>
 
@@ -646,15 +625,15 @@ Hace referencia a si mismo.
 
 <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">;</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setNombre</span>  <span style="color:#000000">(</span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setNombre</span>  <span style="color:#000000">(</span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">)\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#700080"> __this__ </span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">;</span>
+<span style="color:#000000">	</span>  <span style="color:#700080"> **this** </span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">;</span>
 
 <span style="color:#000000">\}</span>
 
 # Objeto - Auto (this, scope)
 
-__Atributos:__
+**Atributos:**
 
 nombre: - String
 
@@ -662,7 +641,7 @@ Color: - String
 
 encendido: -boolean
 
-__Comportamientos__
+**Comportamientos**
 
 arrancar: \+ void
 
@@ -678,31 +657,31 @@ Una clase para un objeto básico\, con sus métodos de asignación (set) y obten
 
 # Sobrecarga de métodos
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">()\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">()\{</span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">(</span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tiempo</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">(</span>  <span style="color:#008050">int</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tiempo</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tiempo</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tiempo</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tiempo</span>  <span style="color:#000000">\, </span>  <span style="color:#008050">boolean</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">turbo</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">setAceleracion</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">tiempo</span>  <span style="color:#000000">\, </span>  <span style="color:#008050">boolean</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">turbo</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">\}</span>
 
 # Argumentos de longitud variable
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">suma</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">valor</span>  <span style="color:#000000">...)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">suma</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">valor</span>  <span style="color:#000000">...)\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código_ </span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">suma</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">valor</span>  <span style="color:#000000">\[\])\{ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">suma</span>  <span style="color:#000000">(</span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">valor</span>  <span style="color:#000000">\[\])\{ </span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//código_ </span>
 
@@ -710,9 +689,9 @@ Una clase para un objeto básico\, con sus métodos de asignación (set) y obten
 
 # Constructores
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __class__ </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">MiObjeto</span>  <span style="color:#000000">\{ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **class** </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">MiObjeto</span>  <span style="color:#000000">\{ </span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MiObjeto</span>  <span style="color:#000000">( )\{ </span>  <span style="color:#a05000"> _//constructor por default_ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MiObjeto</span>  <span style="color:#000000">( )\{ </span>  <span style="color:#a05000"> _//constructor por default_ </span>
 
 <span style="color:#a05000"> _//contenido del constructor_ </span>
 
@@ -720,21 +699,21 @@ Una clase para un objeto básico\, con sus métodos de asignación (set) y obten
 
 <span style="color:#000000">\}</span>
 
-__Mismo nombre de la  clase__
+**Mismo nombre de la  clase**
 
-__Es__  __ lo primero que se manda a llamar al crear una __  __instancia.__
+**Es**  ** lo primero que se manda a llamar al crear una **  **instancia.**
 
-__Debe tener el mismo nombre que la clase__
+**Debe tener el mismo nombre que la clase**
 
 # Constructores con argumentos
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __class__ </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">MiObjeto</span>  <span style="color:#000000">\{ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **class** </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">MiObjeto</span>  <span style="color:#000000">\{ </span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MiObjeto</span>  <span style="color:#000000">()\{ </span>  <span style="color:#a05000"> _//constructor vacío_ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MiObjeto</span>  <span style="color:#000000">()\{ </span>  <span style="color:#a05000"> _//constructor vacío_ </span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MiObjeto</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">argumento</span>  <span style="color:#000000">)\{ </span>  <span style="color:#a05000"> _//constructor con argumento_ </span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MiObjeto</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">argumento</span>  <span style="color:#000000">)\{ </span>  <span style="color:#a05000"> _//constructor con argumento_ </span>
 
 <span style="color:#000000">\}</span>
 
@@ -744,41 +723,41 @@ __Debe tener el mismo nombre que la clase__
 
 Con la palabra reservada this se puede hacer la llama a otro constructor. Esto se realiza cuando se desea construir el objeto con datos por default desde el constructor vacío.
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MyObjeto</span>  <span style="color:#000000">()\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MyObjeto</span>  <span style="color:#000000">()\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#700080"> __this__ </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">“Sin</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre”</span>  <span style="color:#000000">);</span>
+<span style="color:#000000">	</span>  <span style="color:#700080"> **this** </span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">“Sin</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre”</span>  <span style="color:#000000">);</span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MyObjeto</span>  <span style="color:#000000">(</span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">MyObjeto</span>  <span style="color:#000000">(</span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">)\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#700080"> __this__ </span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">;</span>
+<span style="color:#000000">	</span>  <span style="color:#700080"> **this** </span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">nombre</span>  <span style="color:#000000">;</span>
 
 <span style="color:#000000">\}</span>
 
 # Metodos estáticos
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __static__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">nombreMetodoEstatico</span>  <span style="color:#000000">( )\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **static** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">nombreMetodoEstatico</span>  <span style="color:#000000">( )\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//cuerpo del método_ </span>
 
 <span style="color:#000000">\}</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __static__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">nombreMetodoEstatico</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">argumento</span>  <span style="color:#000000"> )\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **static** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">void</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">nombreMetodoEstatico</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">tipo</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">argumento</span>  <span style="color:#000000"> )\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//cuerpo del método_ </span>
 
 <span style="color:#000000">\}</span>
 
-__Se requiere que se genere una __  __instancia__
+**Se requiere que se genere una **  **instancia**
 
-__No se crea uno nuevo aunque se genere una instancia__
+**No se crea uno nuevo aunque se genere una instancia**
 
 # Llamada métodos y campos static
 
-<span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">Clase</span>  <span style="color:#ee11ff"> __>__ </span>  <span style="color:#000000"> </span>  <span style="color:#000000">. </span>  <span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">método</span>  <span style="color:#ee11ff"> __>__ </span>
+<span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">Clase</span>  <span style="color:#ee11ff"> **>** </span>  <span style="color:#000000"> </span>  <span style="color:#000000">. </span>  <span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">método</span>  <span style="color:#ee11ff"> **>** </span>
 
-<span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">Clase</span>  <span style="color:#ee11ff"> __>__ </span>  <span style="color:#000000"> </span>  <span style="color:#000000">. </span>  <span style="color:#ee11ff"> __<__ </span>  <span style="color:#1ab1cd">campo</span>  <span style="color:#ee11ff"> __>__ </span>
+<span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">Clase</span>  <span style="color:#ee11ff"> **>** </span>  <span style="color:#000000"> </span>  <span style="color:#000000">. </span>  <span style="color:#ee11ff"> **<** </span>  <span style="color:#1ab1cd">campo</span>  <span style="color:#ee11ff"> **>** </span>
 
 # Objeto - Ley de Ohm
 
@@ -790,15 +769,15 @@ Crear una librería para la solución de Ley de Ohm.
 
 ![](assets/Programacion%20JAVA_32.png)
 
-__sqrt()__ : Raíz cuadrada
+**sqrt()** : Raíz cuadrada
 
-__pow():__  potencia
+**pow():**  potencia
 
-__sin()__ : seno
+**sin()** : seno
 
-__cos()__ : coseno
+**cos()** : coseno
 
-__abs()__ : valor absoluto
+**abs()** : valor absoluto
 
 ![](assets/Programacion%20JAVA_33.png)
 
@@ -810,9 +789,9 @@ Una variable tipo FINAL significa que ese valor jamás va a cambiar\, no se pued
 
 La forma de declararlo es en Mayúsculas y separados por guión bajo (\_)
 
-<span style="color:#700080"> __final__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">PI</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#106040">3.141592653589793</span>  <span style="color:#000000">;</span>
+<span style="color:#700080"> **final** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">double</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">PI</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#106040">3.141592653589793</span>  <span style="color:#000000">;</span>
 
-<span style="color:#700080"> __final__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">long</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">VELOCIDAD\_DE\_LA\_LUZ</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#106040">300000000</span>  <span style="color:#000000">;</span>
+<span style="color:#700080"> **final** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">long</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">VELOCIDAD\_DE\_LA\_LUZ</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#106040">300000000</span>  <span style="color:#000000">;</span>
 
 # Objeto - Segunda Ley de Newton
 
@@ -848,9 +827,9 @@ Boolean
 
 Objeto  _null_  hace referencia a que el objeto  _no tiene ninguna referencia_ . Es decir\, sólo tiene asignado un espacio en memoria listo para usarse pero aún no contiene nada.
 
-<span style="color:#1ab1cd">Objeto</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">myObjeto</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __=__ </span>  <span style="color:#000000"> </span>  <span style="color:#201090">null</span>  <span style="color:#000000">; </span>  <span style="color:#ee11ff"> __->__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Objeto</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">myObjeto</span>  <span style="color:#000000">;</span>
+<span style="color:#1ab1cd">Objeto</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">myObjeto</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **=** </span>  <span style="color:#000000"> </span>  <span style="color:#201090">null</span>  <span style="color:#000000">; </span>  <span style="color:#ee11ff"> **->** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Objeto</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">myObjeto</span>  <span style="color:#000000">;</span>
 
-<span style="color:#700080"> __if__ </span>  <span style="color:#000000">( </span>  <span style="color:#1ab1cd">objeto</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> __==__ </span>  <span style="color:#000000"> </span>  <span style="color:#201090">null</span>  <span style="color:#000000">)\{</span>
+<span style="color:#700080"> **if** </span>  <span style="color:#000000">( </span>  <span style="color:#1ab1cd">objeto</span>  <span style="color:#000000"> </span>  <span style="color:#ee11ff"> **==** </span>  <span style="color:#000000"> </span>  <span style="color:#201090">null</span>  <span style="color:#000000">)\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//significa que no existe el objeto\, no está definido o no contiene ninguna referencia_ </span>
 
@@ -862,9 +841,9 @@ Cuando se instancia una clase\, todos los objetos se inicializan con null\, igua
 
 Es una propiedad que existe en la POO\, en la cual se puede crear una clase general y conforme se va  _heredando_  se va haciendo especializada en una o más clases.
 
-_Clase Padre _  __-->__   _Clase hija_  ( _heredada_ )
+_Clase Padre _  **-->**   _Clase hija_  ( _heredada_ )
 
-_Super clase_   __-->__   _Subclase_
+_Super clase_   **-->**   _Subclase_
 
 Al hacer la herencia\, todos los campos y métodos son pasados a la clase hija.
 
@@ -874,7 +853,7 @@ Al hacer la herencia\, todos los campos y métodos son pasados a la clase hija.
 
 La forma de generar la herencia es usando la palabra reservada  _extends_ .
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __class__ </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">ClaseHija</span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __extends__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">ClasePadre</span>  <span style="color:#000000">\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **class** </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">ClaseHija</span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **extends** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">ClasePadre</span>  <span style="color:#000000">\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//cuerpo de la clase_ </span>
 
@@ -905,7 +884,7 @@ Se identifica con una  _anotación_  ( _@_ ) y la palabra override (sobre escrit
 
 <span style="color:#505050">@Override</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">toString</span>  <span style="color:#000000">( )\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">toString</span>  <span style="color:#000000">( )\{</span>
 
 <span style="color:#000000">	</span>  <span style="color:#a05000"> _//cuerpo del método_ </span>
 
@@ -919,7 +898,7 @@ Es una buena práctica siempre sobrescribir el método  _toString() _ en todas l
 
 <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">out</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">println</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">myObjeto</span>  <span style="color:#000000">);</span>
 
-<span style="color:#ee11ff"> __\<=>__ </span>
+<span style="color:#ee11ff"> **\<=>** </span>
 
 <span style="color:#1ab1cd">System</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">out</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">println</span>  <span style="color:#000000">(</span>  <span style="color:#1ab1cd">myObjeto</span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">toString</span>  <span style="color:#000000">());</span>
 
@@ -929,9 +908,9 @@ Usar la palabra reservada  _super_  es muy similar a usar la palabra  _this_, la
 
 <span style="color:#505050">@Override</span>
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">toString</span>  <span style="color:#000000">( )\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#008050">String</span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">toString</span>  <span style="color:#000000">( )\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#700080"> __return__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __super__ </span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">toString</span>  <span style="color:#000000">() </span>  <span style="color:#ee11ff"> __\+__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">“contenido</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">de</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">la</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">clase</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">actual”</span>  <span style="color:#000000">;</span>
+<span style="color:#000000">	</span>  <span style="color:#700080"> **return** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **super** </span>  <span style="color:#000000">.</span>  <span style="color:#1ab1cd">toString</span>  <span style="color:#000000">() </span>  <span style="color:#ee11ff"> **\+** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">“contenido</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">de</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">la</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">clase</span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">actual”</span>  <span style="color:#000000">;</span>
 
 <span style="color:#000000">\}</span>
 
@@ -939,11 +918,11 @@ Usar la palabra reservada  _super_  es muy similar a usar la palabra  _this_, la
 
 Sobrecarga de constructores por herencia se realiza siempre y cuando exista un constructor con parámetros en su clase padre.
 
-<span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __class__ </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">Aguila</span>  <span style="color:#000000"> </span>  <span style="color:#700080"> __extends__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Ave</span>  <span style="color:#000000">\{</span>
+<span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **class** </span>  <span style="color:#000000"> </span>  <span style="color:#0000f0">Aguila</span>  <span style="color:#000000"> </span>  <span style="color:#700080"> **extends** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Ave</span>  <span style="color:#000000">\{</span>
 
-<span style="color:#000000">	</span>  <span style="color:#700080"> __public__ </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Aguila</span>  <span style="color:#000000">()\{</span>
+<span style="color:#000000">	</span>  <span style="color:#700080"> **public** </span>  <span style="color:#000000"> </span>  <span style="color:#1ab1cd">Aguila</span>  <span style="color:#000000">()\{</span>
 
-<span style="color:#000000">		</span>  <span style="color:#700080"> __super__ </span>  <span style="color:#000000">(); </span>  <span style="color:#a05000"> _//llama al constructor de Ave por default_ </span>
+<span style="color:#000000">		</span>  <span style="color:#700080"> **super** </span>  <span style="color:#000000">(); </span>  <span style="color:#a05000"> _//llama al constructor de Ave por default_ </span>
 
 <span style="color:#000000">\}</span>
 
@@ -951,7 +930,7 @@ Sobrecarga de constructores por herencia se realiza siempre y cuando exista un c
 
 Si existe un constructor con parámetros forzosamente debe ser implementado.
 
-_public class_  Aguila  _extends_   __Ave\{__
+_public class_  Aguila  _extends_   **Ave\{**
 
 private String color;
 
@@ -961,13 +940,13 @@ _super_ (tipo); //llama al constructor de Ave por default
 
 _this_ .color = color;
 
-__\}__
+**\}**
 
-__\}__
+**\}**
 
 # Final class
 
-Al poner final a la clase lo que genera es que  __no se pueda hacer herencia de ésta__   __clase__ ; es decir\,  _no puede tener clases hijas o subclases._
+Al poner final a la clase lo que genera es que  **no se pueda hacer herencia de ésta**   **clase** ; es decir\,  _no puede tener clases hijas o subclases._
 
 _public _  _final_  _ class_  MyClass\{
 
@@ -1005,11 +984,11 @@ Comportamientos estáticos no pueden ser abstractos.
 
 Los métodos por default son  _public._
 
-_public _  _abstract_  _ class _  __MiObjeto\{__  //inicia la clase
+_public _  _abstract_  _ class _  **MiObjeto\{**  //inicia la clase
 
-_abstract_  _ void _  __miMetodo__ ( ); // no tiene cuerpo el método
+_abstract_  _ void _  **miMetodo** ( ); // no tiene cuerpo el método
 
-__\}__ //fin de la clase
+**\}** //fin de la clase
 
 # Interfaces
 
@@ -1023,11 +1002,11 @@ Es implícito que sea abstract.
 
 ![](assets/Programacion%20JAVA_38.png)
 
-_public _  _interface _  __MiObjeto\{__  //inicia la clase
+_public _  _interface _  **MiObjeto\{**  //inicia la clase
 
-_void _  __miMetodo__ ( ); //no tiene cuerpo el método
+_void _  **miMetodo** ( ); //no tiene cuerpo el método
 
-__\}__ //fin de la clase
+**\}** //fin de la clase
 
 ![](assets/Programacion%20JAVA_39.png)
 
@@ -1039,41 +1018,41 @@ __\}__ //fin de la clase
 
 Los campos de una interfaz por default son  _constantes y estaticos_ .
 
-_public _  _interface _  __Constantes\{__  //inicia la clase
+_public _  _interface _  **Constantes\{**  //inicia la clase
 
-_int _  __VOLAR = 5 __ ; //equivale a -> public static final VOLAR = 5;
+_int _  **VOLAR = 5 ** ; //equivale a -> public static final VOLAR = 5;
 
-__\}__ //fin de la clase
+**\}** //fin de la clase
 
 # Clases internas
 
-_public class_   __MiObjeto\{__
+_public class_   **MiObjeto\{**
 
-_public_  _ _  __MiObjeto__ ( )\{ //constructor por default
+_public_  _ _  **MiObjeto** ( )\{ //constructor por default
 
 //contenido del constructor
 
 \}
 
-_private class_   __ObjetoInterno\{ __  __//clase interna__
+_private class_   **ObjetoInterno\{ **  **//clase interna**
 
-__\}__
+**\}**
 
-__\}__
+**\}**
 
 # Clases anonimas
 
-_ActionListener actionListener  = _  _new_   _ActionListener_  __( ) \{__
+_ActionListener actionListener  = _  _new_   _ActionListener_  **( ) \{**
 
 _@Override_
 
-_public void _ actionPerformed(ActionEvent e) __ \{__
+_public void _ actionPerformed(ActionEvent e) ** \{**
 
 _JOptionPane.showMessageDialog(null\, "Mi primer ventana");_
 
-__ \}__
+** \}**
 
-__        \};__
+**        \};**
 
 # 5. Excepcitions
 
@@ -1099,50 +1078,50 @@ Un error común es cuando se quiere acceder a un objeto (su referencia) y éste 
 
 # Manejo de Excepciones
 
-_try_  __\{__
+_try_  **\{**
 
 //ejecución de código normal
 
-__\}__  _catch_ ( _Exception nombre_ ) __\{__
+**\}**  _catch_ ( _Exception nombre_ ) **\{**
 
 //si sucede un error\, se trata el error aquí
 
-__\}__
+**\}**
 
 # Multiple manejo de Excepciones
 
-_try_  __\{__
+_try_  **\{**
 
 //ejecución de código normal
 
-__\}__  _catch_ ( _Exception nombre_ ) __\{__
+**\}**  _catch_ ( _Exception nombre_ ) **\{**
 
 //si sucede un error y es del tipo de Exception
 
-__\}__  _catch_ ( _ExceptionN nombreN_ ) __\{__
+**\}**  _catch_ ( _ExceptionN nombreN_ ) **\{**
 
 //si sucede un error y es del tipo de Exception
 
-__\}__
+**\}**
 
 
 # Manejo de Excepciones (finally)
 
-_try_  __\{__
+_try_  **\{**
 
 //ejecución de código normal
 
-__\}__  _catch_ ( _Exception_ ) __\{__
+**\}**  _catch_ ( _Exception_ ) **\{**
 
 //si sucede un error\, se trata el error aquí
 
-__\}__
+**\}**
 
-_finally_  __\{__
+_finally_  **\{**
 
-__	// se ejecuta exista o no un error__
+**	// se ejecuta exista o no un error**
 
-__\}__
+**\}**
 
 # Excepciones verificadas y no verificadas
 
@@ -1156,7 +1135,7 @@ Una excepción  _NO verificada_  es cuando no es necesario especificar el bloque
 
 # Excepción NO verificadas (throw)
 
-_public void_   __miMetodo __ ( )  __\{__
+_public void_   **miMetodo ** ( )  **\{**
 
 _if_ ( _enNegativo_ ) \{
 
@@ -1164,9 +1143,9 @@ _throw_   _new_   _NumberFormatException_ (“Número negativo”);
 
 \}
 
-__\}__
+**\}**
 
-_public void_   __miMetodo __ ( )   _throws_  _ _  _Exception_  __\{__
+_public void_   **miMetodo ** ( )   _throws_  _ _  _Exception_  **\{**
 
 _if_ ( _error_ ) \{
 
@@ -1174,29 +1153,29 @@ _throw_   _new_   _Exception_ (“Número negativo”);
 
 \}
 
-__\}__
+**\}**
 
 # Lanzando excepción (throws)
 
 Cuando no se quiere tratar un error\, se puede lanzar al siguiente método por el que fue invocado.
 
-_public void_   __miMetodo __ ( )   _throws_  _ _  _Exception\, IOException_  __\{__
+_public void_   **miMetodo ** ( )   _throws_  _ _  _Exception\, IOException_  **\{**
 
 //cuerpo del método
 
-__\}__
+**\}**
 
 # Creando excepciones propias
 
-_public class_   __MiException __  _extends_  __ Exception\{__
+_public class_   **MiException **  _extends_  ** Exception\{**
 
-_public_  _ _  __MiException__ ( )\{ //constructor por default
+_public_  _ _  **MiException** ( )\{ //constructor por default
 
 //contenido del constructor
 
 \}
 
-__\}__
+**\}**
 
 # 6. Clases genericas
 
@@ -1218,51 +1197,51 @@ __\}__
 
 Para usarlos se encierran entre  _\< >_
 
-_public class_   __MiObjeto__  _\<E>_  __\{__
+_public class_   **MiObjeto**  _\<E>_  **\{**
 
-_public_  _ _  _void_  __ method__ (  _E_  element)\{ //recibe un tipo E
-
-\}
-
-_public_  _ \<E>_  __ method__ ( )\{ retorna un tipo E
+_public_  _ _  _void_  ** method** (  _E_  element)\{ //recibe un tipo E
 
 \}
 
-_Public static _  _ _  _\<E>_  __ __  _void _  __method__ (  _E_  element)\{ //recibe un tipo E y es del tipo E
+_public_  _ \<E>_  ** method** ( )\{ retorna un tipo E
 
 \}
 
-__\}__
+_Public static _  _ _  _\<E>_  ** **  _void _  **method** (  _E_  element)\{ //recibe un tipo E y es del tipo E
+
+\}
+
+**\}**
 
 # Genericos (instancia)
 
-__ClaseGenerica __  _\<TipoObjeto>_  __ miGenerico = __  _new  _  __ClaseGenerica__  _<>_  __( );__
+**ClaseGenerica **  _\<TipoObjeto>_  ** miGenerico = **  _new  _  **ClaseGenerica**  _<>_  **( );**
 
-__ArrayList __  _\<Persona> _  __personas = new ArrayList<>();__
+**ArrayList **  _\<Persona> _  **personas = new ArrayList<>();**
 
 # Genericos (varios valores)
 
-_public class_   __MiObjeto__  _\< E, T, N >_  __\{__
+_public class_   **MiObjeto**  _\< E, T, N >_  **\{**
 
-_public_  _ _  _void_  __ method__ (  _E_  element)\{ //recibe un tipo E
-
-\}
-
-_public_  _ \<T>_  __ method__ (  _E_  element)\{ retorna un tipo E
+_public_  _ _  _void_  ** method** (  _E_  element)\{ //recibe un tipo E
 
 \}
 
-_Public static _  _ _  _\<E>_  __ __  _void _  __method__ (  _E_  element\,  _T_  thing)\{ //recibe un tipo E y es del tipo E
+_public_  _ \<T>_  ** method** (  _E_  element)\{ retorna un tipo E
 
 \}
 
-__\}__
+_Public static _  _ _  _\<E>_  ** **  _void _  **method** (  _E_  element\,  _T_  thing)\{ //recibe un tipo E y es del tipo E
+
+\}
+
+**\}**
 
 # Tipos RAW
 
 Si no se especifica el tipo entre _ \< >_,  entonces es de tipo RAW; es decir\, tipo crudo\, por ende\, el compilador lo toma por default como tipo Object.
 
-__ClaseGenerica __  _miGenerico_  __ = __  _new  _  __ClaseGenerica__  _ _  __( );__
+**ClaseGenerica **  _miGenerico_  ** = **  _new  _  **ClaseGenerica**  _ _  **( );**
 
 # 7. Colecciones
 
@@ -1274,11 +1253,11 @@ Es una  _interfaz_  que implementa _ ArrayList\, LinkedList y Vector_ .
 
 Es una interfaz genérica.
 
-El más usado por su velocidad es  __ArrayList__ .
+El más usado por su velocidad es  **ArrayList** .
 
 # foreach
 
-_for_ ( __TipoBase__   _elemento_ :  _Colección_  )\{
+_for_ ( **TipoBase**   _elemento_ :  _Colección_  )\{
 
 //Cuerpo del for
 
@@ -1286,7 +1265,7 @@ _for_ ( __TipoBase__   _elemento_ :  _Colección_  )\{
 
 _ArrayList_  _\<String>_   _valores_  =  _new_   _ArrayList_ <>();
 
-_for_ ( __String__   _value_ :  _names_  )\{
+_for_ ( **String**   _value_ :  _names_  )\{
 
 //Cuerpo del for
 
@@ -1343,7 +1322,7 @@ CheckBox
 
 
 * Un evento es un método que se dispara cuando sucede un cambio en un elemento.
-* __Eventos:__
+* **Eventos:**
 * _Click_  (Action)
 * _Mouse_
   * Entrar el mouse
@@ -1399,43 +1378,43 @@ Borrar (Delete)
 
 # CRUD
 
-__CREATE TABLE__  \[name\_table\] (\[columns\_name\] \[data\_type\]\,...) __;__
+**CREATE TABLE**  \[name\_table\] (\[columns\_name\] \[data\_type\]\,...) **;**
 
-__CREATE TABLE__  employee  __(__ \_id  __INTEGER__, name  __TEXT__, age  __INTEGER);__
+**CREATE TABLE**  employee  **(** \_id  **INTEGER**, name  **TEXT**, age  **INTEGER);**
 
 # Lenguaje de Consulta (SQL)
 
 # CREATE
 
-__INSERT INTO__  \[name\_table\]  __VALUES(__ name\_columns __);__
+**INSERT INTO**  \[name\_table\]  **VALUES(** name\_columns **);**
 
-__INSERT INTO __ employee  __VALUES( __ 4\, “Juan”\, 28  __);__
+**INSERT INTO ** employee  **VALUES( ** 4\, “Juan”\, 28  **);**
 
 # Lenguaje de Consulta (SQL)
 
 # INSERT
 
-__SELECT__  \[columns\]  __FROM__  table __;__
+**SELECT**  \[columns\]  **FROM**  table **;**
 
-__SELECT__  name\, age  __FROM__  employee __;__
+**SELECT**  name\, age  **FROM**  employee **;**
 
 # Lenguaje de Consulta (SQL)
 
 # READ
 
-__UPDATE__  name\_table  __SET__  column\_name\,...  __WHERE__  condition;
+**UPDATE**  name\_table  **SET**  column\_name\,...  **WHERE**  condition;
 
-__UPDATE__  employee  __SET__
+**UPDATE**  employee  **SET**
 
-name = “Juan Carlos”\, age = 29   __WHERE __ id = 2 __ ;__
+name = “Juan Carlos”\, age = 29   **WHERE ** id = 2 ** ;**
 
 # Lenguaje de Consulta (SQL)
 
 # UPDATE
 
-__DELETE FROM__  name\_table  __WHERE__  condition;
+**DELETE FROM**  name\_table  **WHERE**  condition;
 
-__DELETE FROM__  employee  __WHERE__  id = 2;
+**DELETE FROM**  employee  **WHERE**  id = 2;
 
 # Lenguaje de Consulta (SQL)
 
