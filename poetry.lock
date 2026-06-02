@@ -623,21 +623,6 @@ files = [
 six = ">=1.5"
 
 [[package]]
-name = "python-markdown-math"
-version = "0.9"
-description = "Math extension for Python-Markdown"
-optional = false
-python-versions = ">=3.9"
-groups = ["main"]
-files = [
-    {file = "python_markdown_math-0.9-py3-none-any.whl", hash = "sha256:ac9932df517a5c0f6d01c56e7a44d065eca4a420893ac45f7a6937c67cb41e86"},
-    {file = "python_markdown_math-0.9.tar.gz", hash = "sha256:567395553dc4941e79b3789a1096dcabb3fda9539d150d558ef3507948b264a3"},
-]
-
-[package.dependencies]
-Markdown = ">=3.0"
-
-[[package]]
 name = "pyyaml"
 version = "6.0.3"
 description = "YAML parser and emitter for Python"
@@ -854,4 +839,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "343fef0442cf087d20035151f6604019a45d80d20755cbad1543d8b01564dcbb"
+content-hash = "db50c1c530fd3dfeec767eab4e2728f5c4d51e546da364daf4925b3319da9ac8"
