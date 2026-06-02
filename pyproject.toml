@@ -5,6 +5,8 @@ description = "Documentation about JAVA"
 authors = [
     {name = "Josef Leyva",email = "jalm_x@hotmail.com"}
 ]
+authors = ["Josef Leyva jalm_x@hotmail.com"]
+
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.9"
