@@ -143,15 +143,15 @@ Juan Carlos Pérez
 
 ## Tabla de equivalencias Scanner vs scanf
 
-| Tipo de dato            | scanf (C)   | Scanner (Java)     |
-| -- | -- |  |
-| Entero                  | `%d`        | `nextInt()`        |
-| Decimal                 | `%f`        | `nextFloat()`      |
-| Decimal doble precisión | `%lf`       | `nextDouble()`     |
-| Carácter                | `%c`        | `next().charAt(0)` |
-| Cadena (palabra)        | `%s`        | `next()`           |
-| Línea completa          | No directo  | `nextLine()`       |
-| Booleano                | No estándar | `nextBoolean()`    |
+| Tipo de dato            | Scanner (Java)     |
+| ----------------------- | ------------------ |
+| Entero                  | `nextInt()`        |
+| Decimal                 | `nextFloat()`      |
+| Decimal doble precisión | `nextDouble()`     |
+| Carácter                | `next().charAt(0)` |
+| Cadena (palabra)        | `next()`           |
+| Línea completa          | `nextLine()`       |
+| Booleano                | `nextBoolean()`    |
 
 
 
