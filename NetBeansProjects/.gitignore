@@ -1,14 +1,16 @@
 # ==========================
-# Python
+# NetBeans
 # ==========================
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-.venv
-venv
+/nbproject/private/
+/nbbuild/
+/dist/
+/build/
+/nbdist/
+/.nb-gradle/
+
+# Archivos de bloqueo
+**/.netbeans_automatic_build
+**/.netbeans_update_resources
 
 # ==========================
 # Java
@@ -21,7 +23,11 @@ venv
 *.zip
 *.tar.gz
 *.rar
+
+# Logs
 *.log
+
+# JVM crash logs
 hs_err_pid*
 replay_pid*
 
@@ -35,14 +41,18 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 dependency-reduced-pom.xml
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# Gradle
+# ==========================
+.gradle/
+build/
+out/
 
 # ==========================
 # IDEs
 # ==========================
-nbproject/private/
-nbbuild/
-nbdist/
-.nb-gradle/
 .idea/
 *.iml
 .vscode/
@@ -55,18 +65,7 @@ nbdist/
 # ==========================
 .DS_Store
 Thumbs.db
-.desktop.ini
-
-# ==========================
-# MkDocs
-# ==========================
-site/
-
-# ==========================
-# Entorno
-# ==========================
-.env
-.env.local
+desktop.ini
 
 # ==========================
 # Archivos temporales
