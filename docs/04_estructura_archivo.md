@@ -28,7 +28,7 @@ Por convención el nombre del archivo en donde va la `función main` se llamará
 
 ## Sintaxis
 
-La sintaxis en un lenguaje es como saber las reglas ortográfica de cualquier idioma. Cada lenguaje de programación tiene la suya, en este caso en C tiene sus reglas:
+La sintaxis en un lenguaje es como saber las reglas ortográfica de cualquier idioma. Cada lenguaje de programación tiene la suya, en este caso en JAVA tiene sus reglas:
 
 ```java
 package com.mycompany.practicas;

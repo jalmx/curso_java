@@ -10,7 +10,7 @@ En Java, la concatenación se realiza principalmente mediante el operador `+`.
 
 Cuando uno de los operandos es una cadena de texto (`String`), el operador `+` une ambos valores.
 
-```java id="4i6f7q"
+```java
 String nombre = "Juan";
 String apellido = "Pérez";
 
@@ -21,7 +21,7 @@ System.out.println(nombreCompleto);
 
 **Salida:**
 
-```text id="1ix2zh"
+```text
 Juan Pérez
 ```
 
@@ -31,7 +31,7 @@ Juan Pérez
 
 Es muy común combinar texto con el contenido de variables.
 
-```java id="9tnl4r"
+```java 
 String nombre = "Ana";
 int edad = 25;
 
@@ -41,7 +41,7 @@ System.out.println("Edad: " + edad);
 
 **Salida:**
 
-```text id="fsyq1h"
+```text
 Nombre: Ana
 Edad: 25
 ```
@@ -52,7 +52,7 @@ Edad: 25
 
 Java convierte automáticamente los valores a texto cuando se concatenan con una cadena.
 
-```java id="ohs4ps"
+```java
 String producto = "Laptop";
 double precio = 15999.99;
 boolean disponible = true;
@@ -64,7 +64,7 @@ System.out.println("Disponible: " + disponible);
 
 **Salida:**
 
-```text id="z3m8a0"
+```text
 Producto: Laptop
 Precio: $15999.99
 Disponible: true
@@ -76,13 +76,13 @@ Disponible: true
 
 Hay que tener cuidado con el orden de evaluación.
 
-```java id="e2z2qf"
+```java
 System.out.println("Resultado: " + 5 + 3);
 ```
 
 **Salida:**
 
-```text id="4oqqx5"
+```text
 Resultado: 53
 ```
 
@@ -93,13 +93,13 @@ Java concatena de izquierda a derecha:
 
 Si se desea realizar la operación matemática primero:
 
-```java id="u5r8w6"
+```java
 System.out.println("Resultado: " + (5 + 3));
 ```
 
 **Salida:**
 
-```text id="v8t5z5"
+```text
 Resultado: 8
 ```
 
@@ -107,7 +107,7 @@ Resultado: 8
 
 ## Concatenación con caracteres
 
-```java id="ewz7wq"
+```java
 char inicial = 'J';
 
 System.out.println("Inicial: " + inicial);
@@ -115,7 +115,7 @@ System.out.println("Inicial: " + inicial);
 
 **Salida:**
 
-```text id="10gn4f"
+```text
 Inicial: J
 ```
 
@@ -125,7 +125,7 @@ Inicial: J
 
 La clase `String` posee el método `concat()` para unir cadenas.
 
-```java id="v33s4t"
+```java
 String nombre = "Juan";
 String apellido = " Pérez";
 
@@ -136,13 +136,13 @@ System.out.println(completo);
 
 **Salida:**
 
-```text id="gbrq9o"
+```text
 Juan Pérez
 ```
 
 También puede encadenarse:
 
-```java id="13rtlw"
+```java
 String mensaje = "Hola"
                     .concat(" ")
                     .concat("Mundo");
@@ -156,7 +156,7 @@ System.out.println(mensaje);
 
 Permite crear cadenas con formato.
 
-```java id="3ocp8r"
+```java
 String nombre = "Carlos";
 int edad = 30;
 
@@ -171,7 +171,7 @@ System.out.println(mensaje);
 
 **Salida:**
 
-```text id="6wfy2n"
+```text
 Nombre: Carlos, Edad: 30
 ```
 
@@ -181,7 +181,7 @@ Nombre: Carlos, Edad: 30
 
 Cuando se realizan muchas concatenaciones dentro de ciclos o procesos repetitivos, es recomendable utilizar `StringBuilder`.
 
-```java id="fg2x3p"
+```java
 StringBuilder texto = new StringBuilder();
 
 texto.append("Hola");
@@ -193,13 +193,13 @@ System.out.println(texto);
 
 **Salida:**
 
-```text id="hgvz1y"
+```text
 Hola Mundo
 ```
 
 #### Ejemplo con ciclo
 
-```java id="i1k8dr"
+```java
 StringBuilder numeros = new StringBuilder();
 
 for (int i = 1; i <= 5; i++) {
@@ -211,7 +211,7 @@ System.out.println(numeros);
 
 **Salida:**
 
-```text id="yz8qej"
+```text
 1 2 3 4 5
 ```
 
@@ -221,7 +221,7 @@ System.out.println(numeros);
 
 ### Crear un nombre completo
 
-```java id="m30c4w"
+```java
 String nombre = "Juan";
 String apellido = "Mendez";
 
@@ -234,7 +234,7 @@ System.out.println(completo);
 
 ### Mostrar información de un usuario
 
-```java id="i1mhtj"
+```java
 String nombre = "Laura";
 int edad = 22;
 String carrera = "Ingeniería";
